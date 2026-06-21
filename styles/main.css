@@ -1,0 +1,47 @@
+:root {
+    --border-margin:40px;
+    --main-div-margin-left:220px;
+    --default-icon-height:17px;
+    --side-bar-icon-height:30px;
+    --pdf-icon-height:17px;
+    --side-bar-link-color:black;
+    --preprint-list-color:maroon;
+    --preprint-link-color:maroon;
+    --talk-link-color:black;
+}
+
+head {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 15% 85%;
+    }
+}
+
+body {
+    background-color:#f6fff8;
+    font-family:sans-serif;
+    margin-left:var(--border-margin);
+    margin-right:var(--border-margin);
+}
+
+h1 {
+   color:maroon; 
+}
+
+h2 {
+   color:maroon; 
+}
+
+h3 {
+   color:black; 
+}
+
+a {
+  color:olive;
+  text-decoration:none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration:underline;
+}
